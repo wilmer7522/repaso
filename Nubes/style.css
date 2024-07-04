@@ -1,0 +1,45 @@
+body{
+    background-image: url(img/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+
+.nube1 img{
+    width: 15vw;
+    animation-name: nube1;
+    animation-duration: 5s;
+    display: grid;
+    position: relative;
+    animation-iteration-count: infinite;
+    z-index: 2;
+    left: -20vw;
+    animation-timing-function: linear;
+
+}
+
+.nube2 img{
+    width: 15vw;
+    animation-name: nube2;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    top: 5vw;
+    position: relative;
+    animation-iteration-count: infinite;
+    z-index: 2;
+    left: -20vw;
+    animation-timing-function: linear;
+}
+
+@keyframes nube1{
+    0% {left: -10vw; }
+    100% {left: 100vw;}
+    110% {left: 200vw;}
+}
+
+@keyframes nube2{
+    0% {left: -10vw; }
+    100% {left: 100vw;}
+    110% {left: 200vw;}
+}

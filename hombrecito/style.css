@@ -1,0 +1,36 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caminante{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vw;
+    
+    
+    border: 1px solid black;
+    overflow: hidden;
+    width: 30vw;
+    height: 50vw;
+}
+
+.hombre{
+    position: relative;
+    height: 500vw;
+    width: 100vw;
+    animation-name: h;
+    animation-duration: 10s;
+}
+
+@keyframes h{
+    0% {top: -500vw;}
+    0% {top: -500vw;}
+    10% {top: -1500vw;}
+    10% {top: -1500vw;}
+    20% {top: -2000vw;}
+    20% {top: 2000vw;}
+
+}
