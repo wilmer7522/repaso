@@ -1,0 +1,36 @@
+
+
+#menu{
+    display: none;
+}
+
+.lista{
+    height: 0vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 30vw;
+    
+}
+
+img{
+    width: 5vw;
+}
+
+
+#menu:checked ~ .lista{
+    height: 30vw;
+    width: 50vw;
+}
+
+.l{
+    margin-top: 1vw;
+    font-size: 5vw;
+    text-decoration: none;
+}
+
+.n{
+    margin-top: 1vw;
+}
+
