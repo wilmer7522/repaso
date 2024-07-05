@@ -2,6 +2,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    background-image: url(img/carretera.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .caminante{
@@ -27,7 +31,8 @@ body{
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    top: -450vw;
+
+  
 
 }
 @keyframes desplazar{
@@ -37,47 +42,26 @@ body{
 @keyframes h{
    0% {top: 0vw;}
     10% {top: 0vw;}
-    10.1% {top: -50vw;}
+    10.00001% {top: -50vw;}
     20% {top: -50vw;}
-    20.1% {top: -100vw;}
+    20.00001% {top: -100vw;}
     30% {top: -100vw;}
-    30.1%{top: -150vw;}
+    30.00001%{top: -150vw;}
     40% {top: -150vw;}
-    40.1%{top: -200vw;}
+    40.00001%{top: -200vw;}
     50%{top: -200vw;}
-    50.1% {top: -250vw;}
+    50.00001% {top: -250vw;}
     60% {top: -250vw;}
-    60.1%{top: -300vw;}
+    60.00001%{top: -300vw;}
     70% {top: -300vw;}
-    70.1%{top: -350vw;}
+    70.00001%{top: -350vw;}
     80% {top: -350vw;}
-    80.1%{top: -400vw;}
+    80.00001%{top: -400vw;}
     90% {top: -400vw;}
-    90.1%{top: -450%;}
+    90.00001%{top: -450vw;}
     100% {top: -450vw;}
 }
-@keyframes h{
-    100% {top: -450vw;}
-    90.1%{top: -450%;}
-    90% {top: -400vw;}
-    80.1%{top: -400vw;}
-    80% {top: -350vw;}
-    70.1%{top: -350vw;}
-    70% {top: -300vw;}
-    60.1%{top: -300vw;}
-    60% {top: -250vw;}
-    50.1% {top: -250vw;}
-    50%{top: -200vw;}
-    40.1%{top: -200vw;}
-    40% {top: -150vw;}
-    30.1%{top: -150vw;}
-    30% {top: -100vw;}
-    20.1% {top: -100vw;}
-    20% {top: -50vw;}
-    10.1% {top: -50vw;}
-    10% {top: 0vw;}
-    0% {top: 0vw;}
-}
+
 
 /*@keyframes h{
     
