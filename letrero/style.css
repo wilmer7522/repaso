@@ -1,0 +1,99 @@
+
+
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.caja{
+    position: relative;
+    width: 30vw;
+    height: 18vw;
+    background-color: white;
+    margin-top: 10vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation-name: subir;
+    animation-duration: 2s;
+    top: -5vw;
+    font-family: Arial, sans-serif;
+    
+}
+
+@keyframes subir{
+    0% {
+        top: 10vw;
+    }
+
+    50% {
+        top: -10vw;
+        
+    }
+
+    100% {
+        top: -5vw;
+    }
+}
+
+.circulo{
+    position: absolute;
+    background-color: white;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 60px;
+    margin-top: -2vw;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.robot{
+    width: 5vw;
+
+
+}
+.letras{
+    
+}
+
+.your{
+    font-size: 2vw;
+    color: red;
+    margin-top: 5vw;
+}
+
+.come{
+    font-size: 1.2vw;
+    text-align: center;
+    margin-top: -1vw;
+
+}
+
+.boton{
+    position: relative;
+    left: 6vw;
+    margin-top: 0.5vw;
+    background-color: #2c9cb8;
+    transition: 0.8s;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+}
+
+.boton:hover{
+    background-color: #f4546c;
+}
+
+.make{
+    font-size: 1vw;
+    color: white;
+    f
+}
+
+
