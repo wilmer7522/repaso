@@ -10,50 +10,52 @@ body {
     justify-content: center;
     margin-top: 5vw;
     font-size: 3vw;
+    height: 12vw;
+    border: 1px solid red;
    
 }
 
 
 @keyframes u{
-    10% { transform: rotateX(80deg); }
+    6% { transform: rotateX(80deg); }
     50% {transform: rotateX(0deg);    }
     100% { transform: rotateX(180deg);}  
 
 }
 
 @keyframes p{
-    10% { transform: rotateX(80deg); }
+    6% { transform: rotateX(80deg); }
     50% {transform: rotateX(0deg);    }
     100% { transform: rotateX(180deg);}  
 
 }
 @keyframes y{
-    10% { transform: rotateX(80deg); }
+    6% { transform: rotateX(80deg); }
     50% {transform: rotateX(0deg);    }
     100% { transform: rotateX(180deg);}  
 
 }
 @keyframes o{
-    10% { transform: rotateX(80deg); }
+    6% { transform: rotateX(80deg); }
     50% {transform: rotateX(0deg);    }
     100% { transform: rotateX(180deg);}  
 
 }
 @keyframes v{
-    10% { transform: rotateX(80deg); }
+    6% { transform: rotateX(80deg); }
     50% {transform: rotateX(0deg);    }
     100% { transform: rotateX(180deg);}  
 
 }
 @keyframes e{
-    10% { transform: rotateX(80deg); }
+    6% { transform: rotateX(80deg); }
     50% {transform: rotateX(0deg);    }
     100% { transform: rotateX(180deg);}  
 
 }
 @keyframes r{
 
-    10% { transform: rotateX(80deg); }
+    6% { transform: rotateX(80deg); }
     50% {transform: rotateX(0deg);    }
     100% { transform: rotateX(180deg);}  
 
