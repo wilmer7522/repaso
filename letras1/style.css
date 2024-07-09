@@ -15,11 +15,15 @@
     
 }
 
+.todo{
+    margin-top: -5.5vw;
+}
+
 img{
     width: 5vw;
     position: relative;
     box-shadow: 1px 1px 1px 1px white;
-    top: -3vw;
+    top: 0vw;
     
 }
 
@@ -27,7 +31,7 @@ img{
 #menu:checked ~ .lista{
     height: 30vw;
     width: 30vw;
-    margin-top: -5vw;
+    margin-top: 0vw;
   
 }
 

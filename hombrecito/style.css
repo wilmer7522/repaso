@@ -1,3 +1,55 @@
+#menu{
+    display: none;
+}
+
+.todo{
+    z-index: 3;
+    margin-top: -45vw;
+    margin-left: -60vw;
+    
+    
+    
+}
+.lista{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 30vw;
+    height: 0vw;
+   
+
+    
+}
+
+img{
+    width: 5vw;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px white;
+    
+    
+    
+}
+
+
+#menu:checked ~ .lista{
+    height: 30vw;
+    width: 30vw;
+   margin-top: 0vw;
+   
+  
+}
+
+.l{
+    margin-top: 1vw;
+    font-size: 2vw;
+    text-decoration: none;
+    color: orangered;
+}
+
+
+
 body{
     display: flex;
     justify-content: center;

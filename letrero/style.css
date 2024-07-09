@@ -1,4 +1,53 @@
+#menu{
+    display: none;
+}
 
+.todo{
+    z-index: 5;
+    margin-left: -33vw;
+
+    
+    
+    
+}
+.lista{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 30vw;
+    height: 0vw;
+   
+
+    
+}
+
+img{
+    width: 5vw;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px white;
+    
+    
+    
+}
+
+
+#menu:checked ~ .lista{
+    height: 30vw;
+    width: 30vw;
+   margin-top: 0vw;
+   z-index: 5;
+   
+  
+}
+
+.l{
+    margin-top: 1vw;
+    font-size: 2vw;
+    text-decoration: none;
+    color: orangered;
+}
 
 body{
     background-color: bisque;
