@@ -1,3 +1,46 @@
+#menu{
+    display: none;
+}
+
+.lista{
+    position: absolute;
+    height: 0vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 30vw;
+    
+
+    
+}
+
+img{
+    width: 5vw;
+    position: relative;
+    
+}
+
+
+#menu:checked ~ .lista{
+    height: 30vw;
+    width: 30vw;
+    z-index: 3;
+  
+}
+
+.l{
+    margin-top: 1vw;
+    font-size: 2vw;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px  rgb(255, 255, 255);
+    
+}
+
+
+
+
 body{
     background-image: url(img/sky.jpg);
     background-repeat: no-repeat;
